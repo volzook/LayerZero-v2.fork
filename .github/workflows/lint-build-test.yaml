@@ -8,8 +8,8 @@ on:
   
 jobs:
   lint-build-test:
-    name: Lint, Build & Test
-    runs-on: ubuntu-latest
+    name: Lint, Build & Tests
+    runs-on: ubuntu-latests
     steps:
       - name: Check out
         uses: actions/checkout@v3
@@ -19,15 +19,15 @@ jobs:
           eval "$(sed -n '/foundry/p' ~/.bashrc)" && \
           echo $PATH | tee -a $GITHUB_PATH
       - name: Install chain tools
-        run: |
+        run: | node
           foundryup
       - name: Yarn install
-        run: |
+        run: | node
           yarn install --immutable
       - name: Build
         run: |
           yarn build
       - name: Test
-        run: |
-          yarn test
+        run: | node
+          yarn tests
   
