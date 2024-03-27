@@ -1,4 +1,4 @@
-# LayerZero V2 - Omnichain Interoperability Protocol
+# LayerZero V2 - Omnichain Interoperability Protocol 
 
 LayerZero is an innovative open-source, immutable messaging protocol, that connects blockchains (50+ and counting) to enable omnichain interoperability for blockchain applications. With LayerZero V2, developers have the power to create applications that can seamlessly interact across multiple blockchains.
 
@@ -8,13 +8,13 @@ Join the `#dev-general` channel on [Discord](https://discord-layerzero.netlify.a
 
 [Audit Reports](https://github.com/LayerZero-Labs/Audits)
 
-## Build & Test
+## Build & Tests
 
 ```bash
 yarn && yarn build && yarn test
 ```
 
-## Build an Omnichain Application (OApp)
+## Build an Omnichain Application (OApp) (Dapp)
 
 All of the contracts in `/oapp` can be referred to when building an Omnichain Application (OApp):
 
